@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="mayor que"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 07:14:06 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDU6MjI6MTggcC7igK9tLjsxMTI4MQ=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDc6MTQ6MDYgcC7igK9tLjsxOzExMzg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, Mayor" type="String" array="False" size=""/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <if expression="N1&gt;N2">
+                <then>
+                    <assign variable="Mayor" expression="N1"/>
+                </then>
+                <else>
+                    <assign variable="Mayor" expression="N2"/>
+                </else>
+            </if>
+            <if expression="Mayor&gt;N3">
+                <then/>
+                <else>
+                    <assign variable="Mayor" expression="N3"/>
+                </else>
+            </if>
+            <output expression="Mayor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

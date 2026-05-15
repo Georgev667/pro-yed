@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="parqueadero"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:32:11 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MjM6MTUgcC7igK9tLjsxMTI4NQ=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MzI6MTEgcC7igK9tLjsxOzExMzg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Presio, Horas, Total" type="Real" array="False" size=""/>
+            <input variable="Presio"/>
+            <input variable="Horas"/>
+            <assign variable="Total" expression="Presio*Horas"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

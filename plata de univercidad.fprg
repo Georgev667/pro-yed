@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="plata de univercidad"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 07:04:02 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMzA7MDQ6MjQ6NTAgcC7igK9tLjsxMTI3Ng=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMzA7MDc6MDQ6MDIgcC7igK9tLjszOzExMzg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Valor, Total" type="String" array="False" size=""/>
+            <input variable="Valor"/>
+            <if expression="valor=100">
+                <then>
+                    <assign variable="Total" expression="100*65000"/>
+                </then>
+                <else>
+                    <if expression="valor=">
+                        <then>
+                            <assign variable="Total" expression="50*70000"/>
+                            <assign variable="Total" expression="40*70000"/>
+                        </then>
+                        <else>
+                            <if expression="Valor">
+                                <then>
+                                    <assign variable="Total" expression="30*95000"/>
+                                    <assign variable="Total" expression="40*95000"/>
+                                </then>
+                                <else>
+                                    <assign variable="Total" expression="Valor*8000000"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="segundo"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 05:18:13 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTU7MDM6NDM6NDYgcC7igK9tLjsxMTI4NA=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTU7MDU6MTg6MTMgcC7igK9tLjsxOzExMzkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, P, C" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <input variable="C"/>
+            <assign variable="P" expression="N/C"/>
+            <output expression="P" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

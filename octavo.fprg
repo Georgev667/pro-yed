@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="octavo"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:23:08 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MDc6NDMgcC7igK9tLjsxMTI4OA=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MjM6MDggcC7igK9tLjsxOzExMzk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ED, NA, A" type="Integer" array="False" size=""/>
+            <input variable="NA"/>
+            <input variable="A"/>
+            <assign variable="ED" expression="NA-A"/>
+            <output expression="ED" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

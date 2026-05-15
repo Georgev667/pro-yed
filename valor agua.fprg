@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="valor agua"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 06:45:51 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDY6Mzg6MTggcC7igK9tLjsxMTI4OQ=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDY6NDU6NTEgcC7igK9tLjsxOzExMzky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cargo, Consumo, Mantenimiento, Total" type="Integer" array="False" size=""/>
+            <input variable="Cargo"/>
+            <input variable="Consumo"/>
+            <input variable="Mantenimiento"/>
+            <assign variable="Total" expression="Cargo,Consumo,Mantenimiento,"/>
+        </body>
+    </function>
+</flowgorithm>

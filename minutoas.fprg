@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="minutoas"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:36:43 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MzI6MTcgcC7igK9tLjsxMTI4Nw=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDk6MzY6NDMgcC7igK9tLjsxOzExMzk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Minutos, Precio, Total" type="Integer" array="False" size=""/>
+            <input variable="Minutos"/>
+            <input variable="Precio"/>
+            <assign variable="Total" expression="Minutos*Precio"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

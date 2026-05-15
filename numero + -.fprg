@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="numero + -"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 07:55:03 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDc6MjI6MzYgcC7igK9tLjsxMTI4Mw=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMjM7MDc6NTU6MDMgcC7igK9tLjsxOzExMzkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <input variable="Numero"/>
+            <if expression="Numero&gt;0">
+                <then>
+                    <output expression="&quot;Posit&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Negat&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

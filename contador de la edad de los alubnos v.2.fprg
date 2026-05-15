@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="contador de la edad de los alubnos v.2"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-14 07:40:17 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDUtMTQ7MDY6MzU6MzMgcC7igK9tLjsxMTI4NA=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDUtMTQ7MDc6NDA6MTcgcC7igK9tLjsxOzExMzkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, Cantidad, Suma, Promedio, Edad" type="Integer" array="False" size=""/>
+            <input variable="Cantidad"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="Suma" expression="0"/>
+            <while expression="i&lt;=Cantidad">
+                <input variable="Edad"/>
+                <assign variable="Suma" expression="Suma+Edad"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <assign variable="Promedio" expression="Suma/Cantidad"/>
+            <output expression="Promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

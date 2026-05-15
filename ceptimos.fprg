@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ceptimos"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 08:03:26 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDc6NTM6MjIgcC7igK9tLjsxMTI4NA=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMTY7MDg6MDM6MjYgcC7igK9tLjsxOzExMzky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, T" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="T" expression="A+B+C"/>
+            <output expression="T" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

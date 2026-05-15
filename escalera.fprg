@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="escalera"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 07:10:47 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMzA7MDY6Mjk6MzAgcC7igK9tLjsxMTI4MQ=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDQtMzA7MDc6MTA6NDcgcC7igK9tLjsxOzExMzg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, cantidad" type="Integer" array="False" size=""/>
+            <input variable="cantidad"/>
+            <for variable="i" start="1" end="cantidad" direction="inc" step="1">
+                <forward expression="100" pen="down"/>
+                <turn expression="90" rotate="right"/>
+                <forward expression="100" pen="down"/>
+                <turn expression="90" rotate="left"/>
+            </for>
+            <turn expression="180" rotate="right"/>
+            <forward expression="cantidad*100" pen="down"/>
+            <turn expression="270" rotate="left"/>
+            <forward expression="cantidad*100" pen="down"/>
+        </body>
+    </function>
+</flowgorithm>
