@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ordenamiento burbuja"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-04 05:08:18 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMDQ7MDQ6MTM6NTggcC7igK9tLjsxMTI4NQ=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMDQ7MDU6MDg6MTggcC7igK9tLjsxOzExMzk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, j, temp, arreglo" type="Integer" array="False" size=""/>
+            <declare name="cambio" type="Boolean" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="arreglo" expression="n-1"/>
+            <call expression="arreglo"/>
+            <for variable="i" start="0" end="n-2" direction="inc" step="1">
+                <assign variable="cambio" expression="false"/>
+                <for variable="j" start="0" end="n-i-2" direction="inc" step="1">
+                    <if expression="j&gt;arreglo(j+1)">
+                        <then>
+                            <assign variable="temp" expression="arreglo(j)"/>
+                            <assign variable="j" expression="arreglo(j+1)"/>
+                            <assign variable="j" expression="temp"/>
+                            <assign variable="cambio" expression="true"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="cambio=false">
+                        <then/>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <output expression="arreglo" newline="True"/>
+        </body>
+    </function>
+    <function name="arreglo" type="None" variable="">
+        <parameters>
+            <parameter name="arreglo" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <for variable="N" start="0" end="n-1" direction="inc" step="1"/>
+        </body>
+    </function>
+</flowgorithm>

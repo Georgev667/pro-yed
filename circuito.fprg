@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circuito"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 05:56:15 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMjU7MDU6MDY6MTcgcC7igK9tLjsxMTI4Ng=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMjU7MDU6NTY6MTUgcC7igK9tLjsxOzExMzk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Vt, It, Rt, R1, R2" type="Real" array="False" size=""/>
+            <declare name="tipoCircuito" type="String" array="False" size=""/>
+            <input variable="trayectoria"/>
+            <output expression="El circuito tiene m&#225;s de una bandeja para la corriente (S/N)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

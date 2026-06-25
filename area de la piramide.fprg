@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area de la piramide"/>
+        <attribute name="authors" value="murie"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-18 08:42:11 p.&#8239;m."/>
+        <attribute name="created" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMTE7MDc6MTY6MzcgcC7igK9tLjsxMTI4Ng=="/>
+        <attribute name="edited" value="bXVyaWU7TEFQVE9QLU42Tzc1RlFQOzIwMjYtMDYtMTg7MDg6NDI6MTEgcC7igK9tLjs1OzExMzk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, l, h, vol, area, apothem" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="l"/>
+            <input variable="h"/>
+            <assign variable="vol" expression="hallarvolumen(h,l,a)"/>
+        </body>
+    </function>
+    <function name="hallarapothem" type="None" variable="">
+        <parameters>
+            <parameter name="altura" type="Real" array="False"/>
+            <parameter name="ancho" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="apothem" type="Real" array="False" size=""/>
+            <assign variable="apothem" expression="sqrt(((altura)^2)+(ancho)^2)"/>
+        </body>
+    </function>
+    <function name="hallarvolumen" type="Real" variable="volumen">
+        <parameters>
+            <parameter name="Altura" type="Real" array="False"/>
+            <parameter name="Largo" type="Real" array="False"/>
+            <parameter name="Ancho" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="volumen" type="Real" array="False" size=""/>
+            <assign variable="volumen" expression="(Ancho*Largo*Altura)/3"/>
+        </body>
+    </function>
+</flowgorithm>
